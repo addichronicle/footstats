@@ -1,0 +1,178 @@
+body {
+    border: solid 5px;
+}
+
+
+
+a {
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+
+
+}
+
+h3 {
+    font-weight: bold;
+    font-style: italic;
+    color: #f30b0b;
+}
+
+ol {
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    max-width: 33.33%;
+}
+
+.images {
+    height: 2160px;
+    width: 3840px;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+img {
+    height: 216px;
+    width: 384px;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+p {
+    width: 800px;
+}
+
+header {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 50px;
+    /* Adjust as needed */
+}
+
+
+h1 {
+    background-color: #0ac713;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    width: 400px;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 50%;
+}
+
+marquee {
+    font-size: x-large;
+    /* Adjust the font size as desired */
+    font-weight: bold;
+    font-style: italic;
+    color: #f30b0b;
+}
+
+
+a:link,
+a:visited {
+    background-color: rgb(0, 60, 255);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(255, 0, 221);
+}
+
+.scrolling-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scrolling-nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.scrolling-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.message-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.popup-message {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 9998;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
